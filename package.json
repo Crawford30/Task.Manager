@@ -1,0 +1,54 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_OPTIONS=--openssl-legacy-provider  NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider  node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+        "format": "prettier .  --write"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "^4.6.0",
+        "cross-env": "^5.1",
+        "eslint": "^8.37.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-vue": "^9.10.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "prettier": "2.8.7",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.7.14"
+
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.3.0",
+        "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+        "admin-lte": "^3.2.0",
+        "izitoast": "^1.4.0",
+        "jquery-validation": "^1.19.3",
+        "laravel-vue-pagination": "^2.3.1",
+        "moment": "^2.22.2",
+        "sweetalert2": "^10.16.9",
+        "vform": "^1.0.0",
+        "vue-bootstrap-datetimepicker": "^5.0.1",
+        "vue-loader": "^15.10.0",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.0.1",
+        "vue-select": "^3.20.2",
+        "vue-sweetalert2": "^4.3.1",
+        "vue-toastr": "^2.1.2",
+        "vue2-editor": "^2.10.3",
+        "vuelidate": "^0.7.6",
+        "vuedraggable": "^2.24.3"
+    }
+}

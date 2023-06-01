@@ -1,0 +1,93 @@
+.dvd-view {
+    .btn-modal {
+        background-color: #1f69a2;
+        padding: 10px 80px;
+    }
+
+    .browse-text {
+        text-decoration: underline;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .drag-drop-area {
+        background-color: #eff2f8;
+        text-align: center;
+        margin: 5px 25px;
+        img {
+            height: 48px;
+            width: 48px;
+        }
+    }
+    .add-new-dropdown {
+        position: relative;
+        .dropdown-menu {
+            position: absolute !important;
+            left: -149px !important;
+            top: 0 !important;
+        }
+        li {
+            &:hover {
+                background-color: inherit;
+            }
+        }
+        .dropdown-item {
+            cursor: pointer;
+            text-align: center;
+
+            &:hover {
+                color: #3b86ff;
+            }
+        }
+    }
+    .add-btn {
+        background-color: #3b86ff;
+        padding: 5px 25px;
+    }
+    .table-padding {
+        padding: 25px 35px;
+    }
+    table {
+        thead {
+            background-color: #f5f6fa;
+            color: #a6a9b7;
+        }
+    }
+    .staff-card {
+        background: white;
+    }
+    .staff-side-menu {
+        .link {
+            padding: 10px;
+            cursor: pointer;
+            &.active {
+                color: #0285e3;
+            }
+        }
+        .material-icons {
+            font-size: 32px;
+        }
+        .desc {
+            font-size: 11px;
+        }
+    }
+
+    .permission-table {
+        .header {
+            margin-left: 20px;
+        }
+    }
+
+    &.leave-view {
+        .header {
+            .icon-img {
+                height: 32px;
+            }
+        }
+    }
+}
+
+.present-tense-card {
+    box-shadow: 0 0 2px 2px #dddddd;
+    border-radius: 2px;
+    background: #ffffff;
+}
