@@ -22,7 +22,7 @@
 
 9. Run the php artisan migrate (to create the tables)
 
-10. Run php artisan db:seed to create the seeder data(this has a user with email address: info@taskmanager.com and password: @root#123 or if you prefer can create and account)
+10. Run php artisan db:seed to create the seeder data(this has a user with email address: info@taskmanager.com and password: @root#123 or if you prefer, you can create an account as well)
 
 11. Run php artisan server and another terminal run npm run watch to minify the css
 
