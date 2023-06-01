@@ -13,7 +13,7 @@
 9. Run php artisan config:clear to clear the config
 10. Run php artisan key:generate to generate the encryption key
 11. Run the php artisan migrate (to create the tables)
-12. Run php artisan db:seed to create the seeder data(this has a user with email address: info@taskmanager.com and password: @root#123 or if you prefer, you can create an account as well)
+12. Run php artisan db:seed to create the seeder data(for both the user and the project table and the  user with email address: info@taskmanager.com and password: @root#123 or if you prefer, you can create an account as well)
 13. Run php artisan server and another terminal run npm run watch to minify the css
 14. Visit the url and register or login with the seeded account/user
 
